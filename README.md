@@ -1,4 +1,4 @@
-#📝 To Do List
+# 📝 To Do List
 
 A simple command-line To Do List application built with Python to practice programming fundamentals and problem-solving.
 
@@ -9,7 +9,8 @@ Store tasks using dictionaries
 Display all tasks
 Mark tasks as completed (coming soon)
 Delete tasks (coming soon)
-##🧠 Concepts Practiced
+
+## 🧠 Concepts Practiced
 Variables
 Lists
 Dictionaries
@@ -18,13 +19,15 @@ Conditional statements
 Functions
 User input
 Basic program flow
-🛠 Technologies
+
+## 🛠 Technologies
 Python 3
-##🎯 Purpose
+
+## 🎯 Purpose
 
 This project was built as part of my Python learning journey. The goal was to strengthen my understanding of core programming concepts while building a practical console application.
 
-##📚 Future Improvements
+## 📚 Future Improvements
 Mark tasks as completed
 Delete tasks
 Save tasks to a file
