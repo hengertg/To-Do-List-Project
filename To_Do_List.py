@@ -8,9 +8,8 @@ while True:
 
     print("1: Add task")
     print("2: Show task")
-    print("3: Mark as completed")
-    print("4: Delete task")
-    print("5: Exit")
+    print("3: Delete task")
+    print("4: Exit")
 
     user_selection = input("Choose an option: ")
 
@@ -23,15 +22,30 @@ while True:
                                  "Date":add_date,
                                  "Completed":False
                                  })
+                print(f"Task {all_task} added successfully")
+
+            # Show all task
 
         elif user_selection == "2":
-            print(all_task)
-        
+            if not all_task:
+
+                print("Your To-Do List is completely empty")
+            
+            else:
+                for index,task in enumerate (all_task, 1):
+                    print(f"{index}. {task}")
+                   
+            
         elif user_selection == "3":
-            ...
+            remove_task = input("Please select the Task that you want to delete: ")
+
+            for inde,task in enumerate (all_task,1):
+                all_task.pop()
+
+                
+
+        
         elif user_selection == "4":
-            ...
-        elif user_selection == "5":
             break
     else:
-        print("Choose a right option")
+        print("Invalid option")
